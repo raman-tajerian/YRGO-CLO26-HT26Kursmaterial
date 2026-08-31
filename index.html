@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CLO26 — Kursmaterial</title>
+<style>
+  :root {
+    --bg: #0f1117;
+    --bg-card: #131825;
+    --border: #1e2635;
+    --text: #dde3ed;
+    --text-dim: #94a3b8;
+    --accent: #7c3aed;
+    --accent-2: #67e8f9;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: linear-gradient(135deg, #0f1117 0%, #16213e 60%, #0f1117 100%);
+    color: var(--text);
+    font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 20px 80px;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  h1 {
+    font-size: 2.2em;
+    margin: 0 0 8px;
+    color: #ffffff;
+    text-shadow: 0 0 40px rgba(124, 58, 237, 0.4);
+  }
+  header p {
+    color: var(--text-dim);
+    margin: 0;
+    font-size: 1.05em;
+  }
+  main {
+    width: 100%;
+    max-width: 640px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  a.card {
+    display: block;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 8px;
+    padding: 20px 24px;
+    color: var(--text);
+    text-decoration: none;
+    transition: border-color 0.15s ease, transform 0.15s ease;
+  }
+  a.card:hover {
+    border-color: var(--accent);
+    transform: translateX(4px);
+  }
+  a.card .title {
+    font-weight: 600;
+    font-size: 1.15em;
+    color: #ffffff;
+  }
+  a.card .desc {
+    color: var(--text-dim);
+    font-size: 0.92em;
+    margin-top: 4px;
+  }
+  .soon {
+    opacity: 0.55;
+    border-left-color: var(--border);
+  }
+  .soon .title::after {
+    content: " — kommer snart";
+    font-weight: 400;
+    font-size: 0.7em;
+    color: var(--accent-2);
+  }
+  footer {
+    margin-top: 48px;
+    color: #3d4a5c;
+    font-size: 0.8em;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>CLO26 — Cloud Developer</h1>
+    <p>YRGO · Campus Mölndal · Kursmaterial-portal</p>
+  </header>
+  <main>
+    <a class="card" href="https://discord.gg/ZSquGkSvK" target="_blank" rel="noopener">
+      <div class="title">Discord</div>
+      <div class="desc">Klassens community — ställ frågor, dela kod, hjälp varandra</div>
+    </a>
+    <a class="card soon" href="#">
+      <div class="title">Kursöversikt</div>
+      <div class="desc">Veckoplaner, föreläsningar och övningar för varje kurs</div>
+    </a>
+    <a class="card soon" href="#">
+      <div class="title">Inlämningsuppgifter</div>
+      <div class="desc">Instruktioner och deadlines</div>
+    </a>
+  </main>
+  <footer>
+    Marcus Ackre Medina · Nion Education
+  </footer>
+</body>
+</html>
