@@ -3,7 +3,6 @@
 |    ---            | ---                 | ---                     | ---        | 
 | Marcus Ackre Medina | Onsala            | Swiftie                 | marcusjobb |
 | Philip Ekbrand    | Göteborg            | Marathon nästa år       | pekbrand
-| Akram Salaheldin | Göteborg            | Född i 7e månaden                 | akaysalah |
-| Yuk Ting Ku | Hong Kong            | Spelar Padel                 | yukting-ku |
-
-| Oliver Ågren | Göteborg | X |oliver-agg               |
+| Akram Salaheldin  | Göteborg            | Född i 7e månaden                 | akaysalah |
+| Oliver Ågren      | Göteborg | X |oliver-agg               |
+| Raman Tajerian    | Göteborg            | Är kaffenörd             | raman-tajerian
