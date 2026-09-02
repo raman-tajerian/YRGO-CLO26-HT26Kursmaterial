@@ -15,8 +15,8 @@ Läraren har skapat ett gemensamt repo. Er uppgift är att alla bidra till det �
 Läraren skriver upp repoadressen på tavlan.
 
 ```bash
-git clone https://github.com/Nion-Education/klass-clo26.git
-cd klass-clo26
+git clone https://github.com/marcusjobb/YRGO-CLO26-HT26Kursmaterial/
+cd YRGO-CLO26-HT26Kursmaterial
 ```
 
 ---
